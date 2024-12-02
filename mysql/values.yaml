@@ -1,0 +1,4 @@
+deployment:
+  version: v1
+  mountPath: var/lib/mysql
+  storage: 1Gi

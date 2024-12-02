@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name:  expense
+  labels:
+    project: expense
+    environment: dev
+    created_by: HemanthKumar
+
+
+# to avoid to run the every time as kubectl <text> -n expense, t will sets the default namespace as expense
+# by running 
+# ----------------------kubens expense -----------------------#, 
+# it will set the active namespace is expense
+# sudo git clone https://github.com/ahmetb/kubectx /opt/kubectx
+# sudo ln -s /opt/kubectx/kubectx /usr/local/bin/kubectx
+# sudo ln -s /opt/kubectx/kubens /usr/local/bin/kubens

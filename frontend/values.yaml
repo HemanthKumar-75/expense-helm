@@ -1,0 +1,6 @@
+deployment:
+  version: v2
+hpa:
+  min_replicas: 2
+  max_replicas: 10
+  cpuutilization: 10
